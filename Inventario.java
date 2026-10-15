@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Inventario implements OperacoesInventario {
     private ArrayList<Produto> produtos;
-
+    int dolar;
     public Inventario() {
         produtos = new ArrayList<>();
     }
